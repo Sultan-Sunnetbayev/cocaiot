@@ -1,0 +1,13 @@
+INSERT INTO "categories"("name") VALUES('Статистика') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Участники ТППТ') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Физическое лицо') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Вид деятельности') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Предприниматели') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Государственные организаци') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Хозяйственные общества') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Частные предприятия') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Иностранные компании') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Рассылки') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Министерствы') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Локализация') ON CONFLICT DO NOTHING;
+INSERT INTO "categories"("name") VALUES('Настройки пользователи') ON CONFLICT DO NOTHING;

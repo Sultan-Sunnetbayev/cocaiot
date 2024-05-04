@@ -1,0 +1,410 @@
+"code":"SS-000001"
+"message":"accept activity successful added"
+
+"code":"SS-00002"
+"message":"accept type activity successful edited"
+
+"code":"SS-00003"
+"message":"accept type activity successful removed"
+
+"code":"SS-00004"
+"message":"accept all type activity successful returned"
+
+"code":"SS-00005"
+"message":"accept type activity successful return with this uuid"
+
+"code":"SS-00006"
+"message":"accept amount type activity successful returned"
+
+"code":"SS-00007"
+"message":"accept type activity column name successful returned by id"
+
+"code":"SS-00008"
+"message":"accept file successful uploaded"
+
+"code":"SS-00009"
+"message":"accept file succesful confirmed"
+
+"code":"SS-00010"
+"message":"accept file successful returned"
+
+"code":"SS-00011"
+"message":"accept country successful added"
+
+"code":"SS-00012"
+"message":"accept country successful edited"
+
+"code":"SS-00013"
+"message":"accept country successful removed"
+
+"code":"SS-00014"
+"message":"accept all founded country successful returned"
+
+"code":"SS-00015"
+"message":"accept country successful returned with this uuid"
+
+"code":"SS-00016"
+"message":"accept column name in country entity successful returned by id"
+
+"code":"SS-00017"
+"message":"accept region successful added"
+
+"code":"SS-00018"
+"message":"accept region successful edited"
+
+"code":"SS-00019"
+"message":"accept region successful removed"
+
+"code":"SS-00020"
+"message":"accept all founded regions successful returned"
+
+"code":"SS-00021"
+"message":"accept region successful returned with this uuid"
+
+"code":"SS-00022"
+"message":"accept column name in region entity successful returned by id"
+
+"code":"SS-00023"
+"message":"accept organization successful added"
+
+"code":"SS-00024"
+"message":"accept organization successful edited"
+
+"code":"SS-00025"
+"message":"accept organization successful removed"
+
+"code":"SS-00026"
+"message":"accept all founded organizations successful returned"
+
+"code":"SS-00027"
+"message":"accept organization successful founded with this uuid"
+
+"code":"SS-00028"
+"message":"accept column successful founded in entity organization"
+
+"code":"SS-00029"
+"message":"accept amount organizations successful returned"
+
+"code":"SS-00030"
+"message":"accept person successful added"
+
+"code":"SS-00031"
+"message":"accept person successful edited"
+
+"code":"SS-00032"
+"message":"accept person successful removed"
+
+"code":"SS-00033"
+"message":"accept founded all persons successful returned"
+
+"code":"SS-00034"
+"message":"accept person successful returned with this uuid"
+
+"code":"SS-00035"
+"message":"accept column name successful returned with this id"
+
+"code":"SS-00036"
+"message":"accept amount persons successful returned"
+
+"code":"SS-00037"
+"message":"accept all founded countries successful returned"
+
+"code":"SS-00038"
+"message":"accept all founded regions successful returned"
+
+"code":"SS-00039"
+"message":"accept person added to entrepreneur"
+
+"code":"SS-00040"
+"message":"accept entrepreneur successful edited"
+
+"code":"SS-00041"
+"message":"accept founded all entrepreneur persons successful returned"
+
+"code":"SS-00042"
+"message":"accept entrepreneur successful founded with this uuid"
+
+"code":"SS-00053"
+"message":"accept entrepreneur successful removed"
+
+"code":"SS-00054"
+"message":"accept company founded with this uuid"
+
+"code":"SS-00055"
+"message":"accept company successful added"
+
+"code":"SS-00056"
+"message":"accept company successful edited"
+
+"code":"SS-00057"
+"message":"accept company successful removed"
+
+"code":"SS-00058"
+"message":"accept all founded company successful returned"
+
+"code":"SS-00059"
+"message":"accept all found type activity successful returned"
+
+"code":"SS-00060"
+"message":"accept all found organization successful returned"
+
+"code":"SS-00061"
+"message":"accept all founded don't entrepreneur person successful returned"
+
+"code":"SS-00062"
+"message":"accept all founded person successfulr returned"
+
+"code":"SS-00063"
+"message":"accept cocaiot member candidates successful returned"
+
+"code":"SS-00064"
+"message":"accept amount member by search key successful returned"
+
+"code":"SS-00065"
+"message":"accept member successful added"
+
+"code":"SS-00066"
+"message":"accept cocaiot member successful edited"
+
+"code":"SS-00067"
+"message":"accept cocaiot member successful removed"
+
+"code":"SS-00068"
+"message":"accept founded cocaiot member successful returned"
+
+"code":"SS-00069"
+"message":"accept cocaiot member successful founded with this uuid"
+
+"code":"SS-00070"
+"message":"accept founded type activities successful returned"
+
+"code":"SS-00071"
+"message":"accept founded companies by searchkey returned"
+
+"code":"SS-00072"
+"message":"accept founded companies by type activity uuids returned"
+
+"code":"SR-00001"
+"message":"error this activity type already exists"
+
+"code":"SR-00002"
+"message":"error invalid uuid edited type activity"
+
+"code":"SR-00003"
+"message":"error not found type activity with this uuid"
+
+"code":"SR-00004"
+"message":"error name edited type activity already exists"
+
+"code":"SR-00005"
+"message":"error type activity don't edited"
+
+"code":"SR-00006"
+"message":jsonException.getMessage()
+
+"code":"SR-00007"
+"message":illegalArgumentException.getMessage()
+
+"code":"SR-00008"
+"message":"error type activity don't removed"
+
+"code":"SR-00009"
+"message":"error column not found in type activity"
+
+"code":"SR-00010"
+"message":"error with sort type"
+
+"code":"SR-00011"
+"message":"error not found column type activity with this id"
+
+"code":"SR-00012"
+"message":ioException.getMessage()
+
+"code":"SR-00013"
+"message":"error with saving file in database"
+
+"code":"SR-00014"
+"message":"error file don't confirmed"
+
+"code":"SR-00015"
+"message":"error file not found with this file uuid"
+
+"code":"SR-00016"
+"message":"error country don't added"
+
+"code":"SR-00017"
+"message":"error edited country uuid invalid"
+
+"code":"SR-00018"
+"message":"error country not found with this uuid"
+
+"code":"SR-00019"
+"message":"error edited country name already exists"
+
+"code":"SR-00020"
+"message":"error country don't edited"
+
+"code":"SR-00021"
+"message":"error country don't removed"
+
+"code":"SR-00022"
+"message":"error column not found in country entity"
+
+"code":"SR-00023"
+"message":"error country not found with this uuid"
+
+"code":"SR-00024"
+"message":"error not found column in country entity with this id"
+
+"code":"SR-00025"
+"message":"error region don't added"
+
+"code":"SR-00026"
+"message":"error edited region uuid is invalid"
+
+"code":"SR-00027"
+"message":"error edited region name already exists"
+
+"code":"SR-00028"
+"message":"error region don't edited"
+
+"code":"SR-00029"
+"message":"error region don't removed"
+
+"code":"SR-00030"
+"message":"error column not found in region entity"
+
+"code":"SR-00031"
+"message":"error region not found with this uuid"
+
+"code":"SR-00032"
+"message":"error not found column in region entity with this id"
+
+"code":"SR-00033"
+"message":"error organization don't added"
+
+"code":"SR-00034"
+"message":"error edited organization uuid invalid"
+
+"code":"SR-00035"
+"message":"error edited organization name already exists"
+
+"code":"SR-00036"
+"message":"error organization don't edited"
+
+"code":"SR-00037"
+"message":"error organization don't removed"
+
+"code":"SR-00038"
+"message":"error column not found in entity organization"
+
+"code":"SR-00039"
+"message":"error organization not found with this uuid"
+
+"code":"SR-00040"
+"message":"error column not found in entity organization"
+
+"code":"SR-00041"
+"message":"error person don't added"
+
+"code":"SR-00042"
+"message":"error edited person uuid invalid"
+
+"code":"SR-00043"
+"message":"error edited person email already exists"
+
+"code":"SR-00044"
+"message":"error person don't edited"
+
+"code":"SR-00045"
+"message":"error person don't removed"
+
+"code":"SR-00046"
+"message":"error column not found in entity person"
+
+"code":"SR-00047"
+"message":"error person not found with this uuid"
+
+"code":"SR-00048"
+"message":"error column not found in entity person with this id"
+
+"code":"SR-00048"
+"message":"error conflict with country and region"
+
+"code":"SR-00049"
+"message":"error this person already added to entrepreneur"
+
+"code":"SR-00050"
+"message":"error entrepreneur not found with this uuid"
+
+"code":"SR-00051"
+"message":"error entrepreneur not found with this uuid"
+
+"code":"SR-00052"
+"message":"error entrepreneur don't removed"
+
+"code":"SR-00053"
+"message":"error person not found with this uuid"
+
+"code":"SR-00054"
+"message":"error with upload files"
+
+"code":"SR-00055"
+"message":"error type ownership not found with name"
+
+"code":"SR-00056"
+"message":"error company don't added"
+
+"code":"SR-00057"
+"message":"error company not found with this uuid"
+
+"code":"SR-00058"
+"message":"error company unique parameter already exists"
+
+"code":"SR-00059"
+"message":"error company don't edited"
+
+"code":"SR-00060"
+"message":"error company don't removed"
+
+"code":"SR-00061"
+"message":"error column not found in entity company"
+
+"code":"SR-00062"
+"message":"error type activity not found"
+
+"code":"SR-00063"
+"message":"error organization not found with this uuid"
+
+"code":"SR-00064"
+"message":"error status payment not found with this name"
+
+"code":"SR-00065"
+"message":parseException.getMessage()
+
+"code":"SR-00066"
+"message":"error member don't added"
+
+"code":"SR-00067"
+"message":"error this member already exists"
+
+"code":"SR-00068"
+"message":"error cocaiot member don't edited"
+
+"code":"SR-00069"
+"message":"error cocaiot member don't removed"
+
+"code":"SR-00070"
+"message":"error cocaiot member not found with this uuid"
+
+"code":"SR-00071"
+"message":"error companies not found with this uuids"
+
+"code":"SR-00072"
+"message":"error with type send mailing"
+
+"code":"SR-00073"
+"message":"error mailing don't added"
+
+"code":"SR-00074"
+"message":"error mailing don't removed for company"

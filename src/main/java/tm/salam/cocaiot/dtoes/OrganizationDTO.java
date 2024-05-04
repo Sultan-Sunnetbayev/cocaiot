@@ -1,0 +1,31 @@
+package tm.salam.cocaiot.dtoes;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.UUID;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class OrganizationDTO {
+
+    private UUID uuid;
+    private String name;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private Integer amountCompany;
+
+    @Override
+    public String toString() {
+        return "OrganizationDTO{" +
+                "uuid=" + uuid +
+                ", name='" + name + '\'' +
+                ", amountCompany=" + amountCompany +
+                '}';
+    }
+
+}

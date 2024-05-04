@@ -1,0 +1,42 @@
+spring:
+  main:
+    allow-circular-references: true
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+    show-sql: true
+    open-in-view: true
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/cocaiotdb
+    username: sultan
+    password: postgres.
+  flyway:
+    baseline-on-migrate: true
+    url: jdbc:postgresql://localhost:5432/cocaiotdb
+    user: sultan
+    password: postgres.
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+server:
+  port: 8030
+  error:
+    include-binding-errors: always
+    include-message: always
+jwt:
+  secret: dHNzZSBzYWxhbQ==
+  lifetime: 2h
+
+default:
+  sort:
+    type: DESCENDING
+    column: created
+
+file.upload.path: /home/sultan/data/files
